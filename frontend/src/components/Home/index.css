@@ -1,0 +1,125 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+  background-color: aliceblue;
+}
+
+.titleContainer {
+  background-color: white;
+  height: 100px;
+  border-radius: 80px;
+  width: 150px;
+  align-self: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 5px;
+  margin: 30px;
+}
+
+.title {
+  font-weight: bold;
+  color: darkslategrey;
+}
+
+.responseChangeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.form {
+  background-color: orange;
+  border-radius: 12px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+.inputElement {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+}
+
+.searchButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.searchIcon {
+  width: 25px;
+  height: 25px;
+  margin-top: 6px;
+}
+
+.selectElement {
+  background-color: orange;
+  padding: 8px;
+  border-radius: 12px;
+  width: 123px;
+  cursor: pointer;
+  outline: none;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.tableRow {
+  border-bottom: 1px solid #aeaeae;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tableHead {
+  text-align: left;
+  padding: 10px;
+}
+
+.btn {
+  margin-top: 18px;
+}
+
+.text {
+  font-size: 20px;
+  color: darkgray;
+}
+
+.statsContainer {
+  margin-top: 40px;
+}
+
+.head {
+  font-size: 18px;
+}
+
+span {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.statsDataContainer {
+  background-color: orange;
+  padding: 15px;
+  border-radius: 12px;
+  width: 300px;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.statText {
+  font-size: 16px;
+  margin-right: 8px;
+}
