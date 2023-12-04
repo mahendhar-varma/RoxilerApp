@@ -6,6 +6,7 @@ const path = require("path");
 
 const app = express();
 app.use(cors({ origin: true, credentials: true }));
+app.use(express.json());
 module.exports = app;
 
 const dbPath = path.join(__dirname, "roxilerApp.db");
